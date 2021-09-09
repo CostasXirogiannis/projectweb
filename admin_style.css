@@ -1,0 +1,129 @@
+.wrapper {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    transform: scale(0.9);
+    background: white;
+    width: 350px;
+    padding: 20px;
+}
+.wrapper1 {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    transform: scale(0.9);
+    background: white;
+    width: 350px; 
+    padding: 20px;
+}
+.logo-wrapp {
+    display: flex;
+    justify-content: space-between;
+    background: #aad3df;
+     margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+ 
+}
+.logo-wrapp1 {
+    display: flex;
+    justify-content: space-between;
+    background: #aad3df;
+   
+}
+.welcome-logo {
+    padding-left: 1%;
+    margin-top: 8px;
+}
+.logo-name {
+    padding-right: 7%;
+  /*  position: relative; */
+    top: 6px;
+}
+body {
+    background: #f1dcdc;
+}
+
+.logo {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.dropbtn {
+  background-color: #c2dfe7;
+  color: #497bf6 ;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 16%;
+}
+.dropdownAdmin {
+  position: absolute;
+  display: inline-block;
+  right: 8%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c2dfe7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fixed {
+  position: fixed;
+  width: 100%;
+  bottom: 10px;
+} 
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+
+.dropdown-content a:hover {background-color: #5588fe;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #c2dff0;}
+
+
+.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%
+}
+
+
+
+
+
+
+
+
+

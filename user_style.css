@@ -1,0 +1,202 @@
+.wrapper {
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    transform: scale(0.9);
+    background: white;
+    width: 350px;
+    padding: 20px;
+}
+.wrapper1 {
+    position: absolute;
+    top: 10%;
+    left: 60%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    transform: scale(0.9);
+    background: white;
+    width: 350px; 
+    padding: 20px;
+}
+.logo-wrapp {
+    display: flex;
+    justify-content: space-between;
+    background: #aad3df;
+}
+.welcome-logo {
+    padding-left: 1%;
+}
+.logo-name {
+    padding-right: 7%;
+  /*  position: relative; */
+    top: 6px;
+}
+body {
+    background: #f1dcdc;
+}
+
+.logo {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+
+.dropbtn {
+  background-color: #c2dfe7;
+  color: #497bf6 ;
+  padding: 8px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  right: 8%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c2dfe7;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #5588fe;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #c2dff0;}
+
+#mapid {
+    position: relative;
+    outline: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72%;
+    transform: scale(0.9);
+}
+.choose-file{
+        top: 10%;
+    position: absolute;
+    transform: scale(0.9);
+}
+.upload-create{
+    top: 15%;
+    position: absolute;
+    transform: scale(0.9);
+}
+
+.account-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 200%;
+    left: 5%;
+}
+.username {
+    position: relative;
+    padding: 25px 25px 25px;
+}
+.changepassname{
+    
+    padding-top: 10px;
+    
+    
+}
+.logo-wrapp1 {
+    display: flex;
+    justify-content: space-between;
+    background: #aad3df;
+    height: 40px;
+}
+.signup-form1{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.dropbtn1 {
+    background-color: #c2dfe7;
+    color: #497bf6;
+    padding: 11px 20px;
+    font-size: 16px;
+    border: none;
+}
+
+.myButton {
+  background-color: #aad3df;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  min-width:200px
+}
+
+.myButton:hover, .myButton:active {
+  background-color: #497bf6;
+}
+
+.center img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  height:900px;
+}
+
+.wrapper_change {
+    font: 14px sans-serif; 
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border-radius: 25px;
+    box-shadow: 0 0 25px black;
+    transform: scale(0.9);
+    background: white;
+    width: 350px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

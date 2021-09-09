@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  </head>
+  <body>
+  	<div >
+      <input type="button" id="btn" 
+         value="Show Statistics" 
+         onclick="showStatistics();" >
+    </div>
+    <script>
+    	function showStatistics() {
+    		fetch('userStatistics.php').then((res) => res.json())
+			.then(response =>{
+			    console.log(response);
+			    alert("Last Upload: " + response.lastUpload + "\nNumber of Uploads: " + response.uploadCounter);
+			}).catch(error => console.log(error)); //end of fetch
+
+    	}
+    </script>
+  </body>
+</html>

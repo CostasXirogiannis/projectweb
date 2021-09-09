@@ -1,0 +1,47 @@
+.mydropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    min-width: 200px
+}
+
+.mydropbtn:hover, .mydropbtn:focus {
+  
+}
+
+.mydropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.mydropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+    z-index: 1;
+}
+
+.mydropdown-content button {
+    background-color: #aad3df;
+    border: 1px solid black;
+    color: black;
+    padding: 12px 32px;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.mybutton 
+
+.mydropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
